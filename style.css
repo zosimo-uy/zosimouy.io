@@ -1,0 +1,286 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lucida, monospace;
+}
+body{
+  background-image: url(bgblack2.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bg-color{
+  background-color: black;
+  z-index: 1111;
+}
+
+header{
+  box-shadow: 0px 0px 10px rgba(255, 255, 255,0.8);
+}
+
+.navbar-nav a{
+    text-shadow: 3px 6px 10px rgba(255, 255, 255,0.8);
+    font-size: 16px;
+    color: white;
+    padding: 3px;
+    margin: 3px;
+}
+
+.Logo{
+  mix-blend-mode: hard-light;
+  border: transparent;
+  background-color: transparent;
+  margin-left: 30px;
+  height: 35px;
+}
+
+.navbar-nav a:hover{
+  /* #ebfc02e7 */
+  background-color: #ebfc02e7;
+  border-radius: 5px;
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 10px #ebfc02e7;
+  text-shadow: 3px 6px 10px rgb(9, 176, 237);
+}
+
+.numb{
+  color: #ebfc02e7;
+}
+
+.navbar-toggler{
+  background-color: white;
+  border-color: white;
+  box-shadow: 0px 0px 13px rgba(255, 255, 255,0.8);
+}
+
+section{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section #Home{
+  margin-bottom: 35px;
+}
+
+.active{
+  background-color: #95BDFF;
+  border-radius: 5px;
+  display: inline-block;
+  color: black;
+  box-shadow: 2px 2px 5px #ebfc02e7;
+  text-shadow: 3px 6px 10px rgba(0, 0, 0);
+}
+
+.homeCard{
+  font-size: 4rem;
+  color: #ffffff;
+  background-color: transparent;
+  /* border: 1px solid #fff; */
+  margin-right: 12%;
+  margin-bottom: 12%;
+  border:none;
+}
+
+.greeting{
+  color: #ebfc02e7;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.heroTitle{
+  color: #95BDFF;
+  margin: 20px 0px 20px;
+  font-size: 75px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.heroJob{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.heroRoad{
+  font-weight: bold;
+  color: #95BDFF;
+}
+
+.heroIntro{
+  font-size: 20px;
+  max-width: 450px;
+  height: 79px;
+  opacity: 0.8;
+}
+
+.kph a{
+  text-decoration: none;
+  color: #ebfc02e7;
+}
+
+.row .card{
+  background-color: transparent;
+  /* border: 2px solid #FFF; */
+  /* box-shadow: 1px 1px 18px #fff; */
+  border: none;
+}
+
+.CTA{
+  color: #95BDFF;
+  background-color: none;
+}
+
+.list-group .bi:hover{
+  font-size: 38px;
+  transition: 0.35s;
+  z-index: 1;
+}
+
+.check{
+  font-weight: bold;
+}
+
+.list-group{
+  margin-left: 60px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.list-group-item{
+  background-color: transparent;
+  border-color: transparent;
+  padding: 20px;
+  font-size: 32px;
+  border:none;
+}
+
+.aboutMe, .cardBody{
+  color: #95BDFF;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.cardAbout{
+  color: rgba(240, 255, 255, 0.8);
+  text-shadow: 1px 1px 1px rgba(240, 255, 255, 0.205);
+}
+
+.cardWork{
+  background-color: transparent;
+  border:none;
+}
+
+.cardWork2{
+ font-weight: bold;
+}
+
+.cardHistory li{
+  color: #ffffffbb;
+  text-decoration: none;
+  list-style: none;
+  letter-spacing: 2px;
+}
+
+.cardJob{
+  color: #ffffff;
+  text-shadow: 2px 2px 8px #ffffffa0;
+  font-weight: bold;
+}
+
+.breathePic{
+  mix-blend-mode: screen;
+  transition: 0.75s;
+}
+
+.breathePic:hover{
+  mix-blend-mode: normal;
+  scale: 115%;
+  z-index: -1;
+}
+
+.calcuPic{
+  mix-blend-mode: screen;
+  transition: 0.75s;
+}
+
+.calcuPic:hover{
+  mix-blend-mode: normal;
+  scale: 120%;
+  z-index: -1;
+}
+
+.projTitle{
+  font-weight: bolder;
+  font-size: 65px;
+  font-style: italic;
+  text-shadow: 2px 2px 8px #ffffffa0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.projTitle a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.projTitle a:hover{
+  color: #95BDFF;
+}
+
+.projTech{
+  color: #95BDFF;
+}
+
+/* additonal responsiveness */
+/* @media screen and (max-width: 348){
+
+  .col-sm .home{
+    margin-top: 10px;
+    text-align: justify;
+    padding: 20px;
+    margin-left: 0px;
+    height: 100vh;
+  }
+  .heroIntro{
+    text-align: justify;
+    overflow: visible;
+    width: auto;
+  }
+  .heroTitle{
+    color: #FFFFFF;
+    margin: 10px 0px 10px;
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  .heroJob{
+    color: #95BDFF;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px
+  }
+  .heroRoad{
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .col-sm .home{
+    margin-left: 75px;
+    min-height: 100vh;
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .col-sm .home{
+    margin-left: 130px;
+    min-height: 100vh;
+    width: auto;
+  }
+} */
+
