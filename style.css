@@ -155,8 +155,6 @@ section #Home{
 .list-group-item{
   background-color: transparent;
   border-color: transparent;
-  padding: 20px;
-  font-size: 32px;
   border:none;
 }
 
@@ -231,41 +229,25 @@ section #Home{
   color: #95BDFF;
 }
 
-.projTech{
+.projTech li{
   color: #95BDFF;
 }
 
-/* additonal responsiveness */
-/* @media screen and (max-width: 348){
+.projTech li:hover, .projTech a i .bi:hover{
+  scale: 135%;
+  transition: 0.45s;
+}
 
-  .col-sm .home{
-    margin-top: 10px;
-    text-align: justify;
-    padding: 20px;
-    margin-left: 0px;
-    height: 100vh;
-  }
-  .heroIntro{
-    text-align: justify;
-    overflow: visible;
-    width: auto;
-  }
-  .heroTitle{
-    color: #FFFFFF;
-    margin: 10px 0px 10px;
-    font-size: 45px;
-    margin-bottom: 10px;
-  }
-  .heroJob{
-    color: #95BDFF;
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 10px
-  }
-  .heroRoad{
-    font-weight: bold;
-    color: #FFFFFF;
-  }
+/* additonal responsiveness */
+
+@media screen and (max-width: 348){
+section{
+  min-height: 100vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 }
 
 @media screen and (min-width: 768px){
@@ -282,5 +264,5 @@ section #Home{
     min-height: 100vh;
     width: auto;
   }
-} */
+}
 
