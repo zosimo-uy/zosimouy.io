@@ -12,30 +12,3 @@ function activeMenu (){
 
 activeMenu();
 window.addEventListener(`scroll`,activeMenu);
-
-// var prevScrollpos = window.pageYOffset;
-// function ScrollMenu (){
-//   var currentScrollPos = window.pageYOffset;
-//   if (prevScrollpos > currentScrollPos) {
-//     document.getElementsById("taas").classList.add = `none`;
-//   } else {
-//     document.getElementsById("taas").classList.add = `block`;
-//   }
-//   prevScrollpos = currentScrollPos;
-// }
-
-// ScrollMenu();
-// window.addEventListener(`scroll`,ScrollMenu);
-
-
-/*const audio = new Audio();
-audio.src = `./click.mp3`;
-
-// function soundClick(){
-//   audio.play();
-//   window.addEventListener(`click`,soundClick);
-// }
-
-// soundClick(secTion);
-
-*/
