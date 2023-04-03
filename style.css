@@ -11,7 +11,11 @@ body{
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  width: 100%;
+}
+
+html,body
+{
+    overflow-x: hidden; 
 }
 
 .bg-color{
@@ -85,8 +89,6 @@ section #Home{
   color: #ffffff;
   background-color: transparent;
   /* border: 1px solid #fff; */
-  margin-right: 12%;
-  margin-bottom: 12%;
   border:none;
 }
 
